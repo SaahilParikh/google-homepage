@@ -1,0 +1,148 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+}
+
+#head {
+    height: 5vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#header1 {
+    background-color: rgb(255, 255, 255);
+}
+
+#header2 {
+    background-color: rgb(255, 255, 255);
+}
+
+#logo {
+    height: 42.5vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 10px;
+}
+
+#box {
+    background-color: rgb(255, 255, 255);
+    flex-grow: 0;
+}
+
+#search {
+    height: 5vh;
+    background-color: rgb(70, 30, 30);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    padding-left: 10px;
+    height: 44px;
+    margin: 0 auto;
+    width: 35vw;
+}
+
+#search-box {
+    background-color: transparent;
+    border: none;
+    /* margin: 0; */
+    /* padding: 0; */
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    -webkit-tap-highlight-color: transparent;
+    /* margin-top: -37px; */
+    /* height: 34px; */
+    font-size: 16px;
+}
+
+#button_div {
+    height: 42.5vh;
+    background-color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    
+}
+
+.button {
+    background-color: #f8f9fa;
+    margin: 11px 6px;
+    padding: 5px 16px;
+    line-height: 27px;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    cursor: pointer;
+    user-select: none;
+}
+
+#space1 {
+    background-color: #4a0d50;
+}
+
+#space2 {
+    background-color: #470b13;
+}
+
+ul {
+    list-style-type: none;
+    margin: 5px;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+  }
+  
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: #222;
+    margin: 0 5px;
+    text-align: center;
+    padding: 20px 5px;
+    text-decoration: none;
+}
+
+li a img {
+    padding: -10px 5px;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    text-decoration: underline;;
+}
+
+#footer {
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+}
+
+footer li {
+    background-color: #f2f2f2;
+}
+
+footer li a {
+    display: inline-block;
+    color: #70757a;
+    margin: 0 5px;
+    text-align: center;
+    padding: 20px 5px;
+    text-decoration: none;
+}
